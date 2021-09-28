@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="back">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg">
+            <div class="container">
+                <button class="navbar-toggler ml-auto" style="color:white;border-width:0px;" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav m-auto">
+                        <a class="nav-link active" id="navItem1" href="#Home">
+                            Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link" href="#About" id="navItem2">About</a>
+                        <a class="nav-link" href="#Blog" id="navItem3">Blog</a>
+                        <a class="nav-link" href="" id="navItem4">Resume</a>
+                        <a class="nav-link" href="#Contact" id="navItem5">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="Home" class="bg-1 d-flex flex-column justify-content-end">
+            <div class="card-1">
+                <hr class="line1 fade-out1" />
+                <hr class="line2 fade-out2" />
+                <h1 class="head-1 move1">KOTHAMASU</h1>
+                <h1 class="head-1 move1">LAASYA SREE</h1>
+                <p class="para-1 move1">Ungraduate. Persuing Btech<br /> Computer Science And Engineering</p>
+            </div>
+        </div>
+        <div id="About">
+            <div class="card shadow">
+                <p class="para-2">
+                    My schooling is done in VIJAYAWADA, ANDHRA PRADESH. At present I am studying B.tect 2nd year in Vellore Institute of Technology.
+                </p>
+                <p class="para-2">
+                    Coming to my technical skills,<br /><br /><span style="font-weight:bold;">Languages: <br /><br /> </span> <img class="image" src="https://www.pngitem.com/pimgs/m/31-312155_c-programming-language-logo-hd-png-download.png" />
+                    <img src="https://th.bing.com/th/id/R.20503d65d917dc1330bfbafe405498c6?rik=HACQYvYL4j8khQ&riu=http%3a%2f%2f2.bp.blogspot.com%2f-vTJ_yl766rM%2fTwPxtzDOe0I%2fAAAAAAAAAGM%2f4hKsjAuRnW4%2fs1600%2fjava.gif&ehk=Io2MFHXBbeoVFBq1zAi1Qb8ZvHTY5R3BiRvoxrykvQQ%3d&risl=&pid=ImgRaw&r=0" class="image" />
+                    <img src="https://th.bing.com/th/id/R.0ccb8695ac1408dffac87b76c1100a85?rik=oQXbuCJUoam9%2fA&riu=http%3a%2f%2fdetechter.com%2fwp-content%2fuploads%2f2013%2f08%2fpython.png&ehk=ozSrqU5edQj%2fqocy91CfC%2fT46tmh32zhAmpKD4OsD%2bk%3d&risl=&pid=ImgRaw&r=0" class="image" />
+                    <br /><br /><span style="font-weight:bold;">Web Development:</span> I am good at building Static and Responsive Websites using HTML and CSS...<br /><br />
+                    <img src="https://miro.medium.com/max/3332/1*nEBkrQ7shqHlATqvFBmypg.png" class="image" />
+                </p>
+                <h2 class="para-2">***Python in progress***</h2>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="card shadow d-flex flex-column justify-content-center">
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="col-md-2">
+                                <h1 class="head-3 fade-out1">IB HUBS</h1>
+                            </div>
+                            <div class="col-md-10">
+                                <p class="para-2 ">
+                                    IB HUBS is a big oraganisation, collabration with Nxtwave and<a href="https://www.ccbp.in/academy"> CCBP </a> ,the courses are very well structured.XPM 4.0 made me realise the power of consistency and kept me motivated. NxtWave team support is no less than what a family does.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Blog" class="pt-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="cardb shadow col-12 col-md-6 mt-2">
+                        <h1 class="blog-head">I have done YOUTUBE VIDEOS ON STATIC WEBSITES</h1>
+                        <h1 class="blog-head">Tourism Website</h1>
+                        <a class="blog-para" href="https://youtu.be/QMnGwyDz1sY">Video 1</a>
+                        <a class="blog-para" href="https://youtu.be/yv0Czk-rKy0">Video 2</a>
+                        <a class="blog-para" href="https://youtu.be/6u60aLRqfb0">Video 3</a>
+                        <a class="blog-para" href="https://youtu.be/eHQV0LMpZps">Video 4</a>
+                    </div>
+                    <div class="cardb shadow col-12 col-md-6 mt-1 ">
+                        <h1 class="blog-head" stlye="text-decoration-color:#867c03;">Some more Static Websites</h1>
+                        <a class="blog-para" href="https://youtu.be/bTMyjXMJubM">Quiz Website</a>
+                        <a class="blog-para" href="https://youtu.be/t9BRCwRHInw">Bio on Mahatma Gandhi</a>
+                    </div>
+                    <div class="cardb shadow col-12 col-md-6 mt-2">
+                        <h1 class="blog-head">Hyperlinks</h1>
+                        <a class="blog-para" href="https://youtu.be/0AiSSo4_JbI">Shopping Website</a>
+                        <a class="blog-para" href="https://youtu.be/t9BRCwRHInw">Bio on Mahatma Gandhi</a>
+                    </div>
+                    <div class="cardb shadow col-12 col-md-6 mt-2">
+                        <h1 class="blog-head">Started Creating Responsive Wesites</h1>
+                        <a class="blog-para" href="https://youtu.be/7xDTgm1uOmE">On Virtual Reality</a>
+                    </div>
+                    <div class="cardb shadow col-12 col-md-6 mt-2">
+                        <h1 class="blog-head">Food Munch Restaurant Website</h1>
+                        <a class="blog-para" href="https://youtu.be/hmRd_NQ5tNI">Video 1</a>
+                        <a class="blog-para" href="https://youtu.be/2WIDHjGvcmM">Video 2</a>
+                        <a class="blog-para" href="https://youtu.be/-eAY0DKu1NY">Video 3</a>
+                    </div>
+                    <div class="cardb shadow col-12 col-md-6 mt-2">
+                        <h1 class="blog-head">Mini Project On Virtual Reality</h1>
+                        <a class="blog-para" href="https://youtu.be/NQuhodScUQk">Click Here</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Contact">
+            <div class="d-flex justify-content-center flex-column mt-5 mb-5">
+                <div class="text-center">
+                    <h1 class="mt-5 mb-5 fade-out1 head-4">Can Contact Me</h1>
+                    <div class=" ml-auto">
+                        <a href="https://github.com/laasyasree-glitch" target="_blank"><i class="fab fa-github icon"></i></a>
+                        <a href="https://www.instagram.com/laasya_kothamasu/" target="_blank"><i class="fab fa-instagram icon "></i></a>
+                        <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin icon"></i></a>
+                        <a href="https://www.youtube.com/channel/UCMn9ilNvfgW9B0yBor5_FPw" target="_blank"><i class="fab fa-youtube icon"></i></a>
+                    </div>
+                    <i class="fas fa-envelope icon1 mt-3">
+                        <p class="para-3">laasyakothamasu@gmail.com</p>
+                    </i>
+                </div>
+            </div>
+        </div>
+        <div class="footer-section pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="footer-section-h1">Developed by your KOTHAMASU LAASYA SREE</h1>
+                        <p class="footer-section-h1">Guided by CSI Chapter VIT AP
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
